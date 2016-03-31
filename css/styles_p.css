@@ -1,6 +1,11 @@
 body {
-  background-color:#666;
+  background-image: url(http://deskbg.com/s3/wpp/0/609/blue-black-desktop-background.jpg);
+  background-position: center;
+  background-size: cover;
 }
+
+/*Cssmenu navbar*/
+
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 #cssmenu,
 #cssmenu ul,
@@ -180,4 +185,30 @@ body {
 }
 #cssmenu.small-screen #menu-button.menu-opened:before {
   background: #dff2fa;
+}
+
+/*Home section*/
+
+#home {
+  margin: 0;
+  padding: 0;
+  clear: both;
+  height: auto;
+  width: auto;
+}
+
+#home p {
+  color: black;
+  margin-top: 250px;
+  margin-right: 320px;
+  margin-bottom:250px;
+  margin-left: 365px ;
+  font-size: 80px;
+  font-family: 'Raleway' ,serif;
+  text-transform: uppercase;
+  text-shadow:
+   -1px -1px 0 #3db2e1,
+   1px -1px 0 #3db2e1,
+   -1px 1px 0 #3db2e1,
+   1px 1px 0 #3db2e1;
 }
