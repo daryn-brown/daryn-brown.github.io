@@ -37,7 +37,7 @@ body {
 }
 #cssmenu {
   width: auto;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, sans-serif;*
   line-height: 1;
 }
 #cssmenu > ul {
@@ -190,19 +190,17 @@ body {
 /*Home section*/
 
 #home {
-  margin: 0;
+  margin-top: 250px;
+  margin-left: 365px;
+  margin-bottom: 245px;
   padding: 0;
   clear: both;
   height: auto;
   width: auto;
 }
 
-#home p {
+#head-text {
   color: black;
-  margin-top: 250px;
-  margin-right: 320px;
-  margin-bottom:250px;
-  margin-left: 365px ;
   font-size: 80px;
   font-family: 'Raleway' ,serif;
   text-transform: uppercase;
@@ -211,4 +209,12 @@ body {
    1px -1px 0 #3db2e1,
    -1px 1px 0 #3db2e1,
    1px 1px 0 #3db2e1;
+}
+
+#intro {
+  color: #fff;
+  margin-left: 220px;
+  font-family: 'Raleway' ,serif;
+  font-size: 20px;
+  text-transform: uppercase;
 }
