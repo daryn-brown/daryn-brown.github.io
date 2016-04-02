@@ -1,12 +1,12 @@
 body {
-  background-image: url('http://deskbg.com/s3/wpp/0/609/blue-black-desktop-background.jpg');
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  }
+background-image: url('http://p1.pichost.me/i/48/1711174.jpg');
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
 
 /*Cssmenu navbar*/
 
@@ -189,36 +189,4 @@ body {
 }
 #cssmenu.small-screen #menu-button.menu-opened:before {
   background: #dff2fa;
-}
-
-/*Home section*/
-
-#home {
-  margin-top: 250px;
-  margin-left: 365px;
-  margin-bottom: 245px;
-  padding: 0;
-  clear: both;
-  height: auto;
-  width: auto;
-}
-
-#head-text {
-  color: black;
-  font-size: 80px;
-  font-family: 'Raleway' ,serif;
-  text-transform: uppercase;
-  text-shadow:
-   -1px -1px 0 #3db2e1,
-   1px -1px 0 #3db2e1,
-   -1px 1px 0 #3db2e1,
-   1px 1px 0 #3db2e1;
-}
-
-#intro {
-  color: #fff;
-  margin-left: 220px;
-  font-family: 'Raleway' ,serif;
-  font-size: 20px;
-  text-transform: uppercase;
 }
