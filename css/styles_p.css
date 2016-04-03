@@ -1,5 +1,5 @@
 body {
-  background-image: url('http://deskbg.com/s3/wpp/0/609/blue-black-desktop-background.jpg');
+  background-image: url('https://i.ytimg.com/vi/q2U8dcDdKd0/maxresdefault.jpg');
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
@@ -194,7 +194,7 @@ body {
 /*Home section*/
 
 #home {
-  margin-top: 250px;
+  margin-top: 220px;
   margin-left: 365px;
   margin-bottom: 245px;
   padding: 0;
@@ -204,15 +204,15 @@ body {
 }
 
 #head-text {
-  color: black;
+  color: #3db2e1;
   font-size: 80px;
   font-family: 'Raleway' ,serif;
   text-transform: uppercase;
   text-shadow:
-   -1px -1px 0 #3db2e1,
-   1px -1px 0 #3db2e1,
-   -1px 1px 0 #3db2e1,
-   1px 1px 0 #3db2e1;
+   -2px -2px 0 #666,
+   2px -2px 0 #666,
+   -2px 2px 0 #666,
+   2px 2px 0 #666;
 }
 
 #intro {
