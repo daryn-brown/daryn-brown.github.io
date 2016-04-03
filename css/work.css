@@ -1,9 +1,10 @@
 body {
-background-image: url('http://p1.pichost.me/i/48/1711174.jpg');
--moz-background-size: cover;
+background-color: #3db2e1;
+background-image: url('http://pmblog-demo.propertyminder.com/wp-content/themes/NewBlogTheme/img/blueSquares.png');
+/*-moz-background-size: cover;
 -webkit-background-size: cover;
-background-size: cover;
-background-position: top center;
+background-size: cover;*/
+background-position: top right;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
