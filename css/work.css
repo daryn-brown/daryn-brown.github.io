@@ -9,8 +9,8 @@
 }
 
 @font-face {
-  font-family: agency fb;
-  src:url('../fonts/AGENCYR.ttf') format('truetype');
+  font-family: agency;
+  src:url('../fonts/AGENCYR.TTF') format('truetype');
 }
 
 body {
@@ -302,7 +302,7 @@ background-attachment: fixed;
 }
 #sketchpad-frnt {
   font-size: 2.5em;
-  font-family: agency fb, serif;
+  font-family: agency, serif;
   color: #0040ff;
   padding-left: 1em;
   padding-top: .5em;
