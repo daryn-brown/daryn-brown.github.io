@@ -226,3 +226,18 @@ background-attachment: fixed;
   font-size: .8em;
   font-family: abeezee regular;
 }
+
+footer {
+  padding-top: 1.5em;
+  padding-left: 4em;
+}
+footer a {
+  padding-right: 13em;
+  font-family: abeezee regular;
+  color: #fff;
+  opacity: 0.5;
+}
+
+footer a:hover {
+  opacity: 1;
+}
