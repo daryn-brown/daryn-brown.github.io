@@ -1,3 +1,18 @@
+@font-face {
+  font-family: ar-destine;
+  src:url('../fonts/ARDESTINE.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: abeezee regular;
+  src:url('../fonts/ABeeZee-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: agency fb;
+  src:url('../fonts/AGENCYR.ttf') format('truetype');
+}
+
 body {
 background-color: #3db2e1;
 background-image: url('http://pmblog-demo.propertyminder.com/wp-content/themes/NewBlogTheme/img/blueSquares.png');
@@ -5,7 +20,10 @@ background-position: top right;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
-
+ a {
+   text-decoration: none;
+   color: none;
+ }
 /*Cssmenu navbar*/
 
 @import url(http://fonts.googleapis.com/css?family=Raleway);
@@ -146,6 +164,7 @@ background-attachment: fixed;
 #cssmenu.small-screen > ul > li > a::before {
   display: none;
 }
+
 #cssmenu.small-screen #menu-button {
   display: block;
   padding: 16px 20px;
@@ -157,6 +176,7 @@ background-attachment: fixed;
   letter-spacing: 1px;
   background: #3db2e1;
 }
+
 #cssmenu.small-screen #menu-button:after {
   content: "";
   position: absolute;
@@ -235,3 +255,63 @@ background-attachment: fixed;
 .jssora05r:hover { background-position: -190px -40px; }
 .jssora05l.jssora05ldn { background-position: -250px -40px; }
 .jssora05r.jssora05rdn { background-position: -310px -40px; }
+
+/*Info section*/
+
+.siteinfo {
+  margin-top: 32em;
+}
+
+/*Cortechx info section*/
+
+#cortechx-info {
+  background-image: url('http://www.themefocus.co/alterna/newdemo/wp-content/uploads/2014/04/Untitled-w4.png');
+  background-color: #fff;
+  width: 75em;
+  height: 6em;
+  margin: auto;
+  margin-bottom: 3em;
+}
+#cortechx-frnt {
+  font-size: 2.5em;
+  font-family: ar-destine , serif;
+  color: #33ccff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 1em;
+  padding-top: .5em;
+  float: left;
+}
+#cortechx-p {
+  color: #fff;
+  font-family: abeezee regular, serif;
+  padding-top: 2.5em;
+  padding-right: 1em;
+  float: right;
+}
+
+/*Sketchpad info section*/
+
+#sketchpad-info {
+  background-image: url('http://www.themefocus.co/alterna/newdemo/wp-content/uploads/2014/04/Untitled-w4.png');
+  background-color: #fff;
+  width: 75em;
+  height: 6em;
+  margin: auto;
+  margin-bottom: 3em;
+}
+#sketchpad-frnt {
+  font-size: 2.5em;
+  font-family: agency fb, serif;
+  color: #0040ff;
+  padding-left: 1em;
+  padding-top: .5em;
+  float: left;
+}
+#sketchpad-p {
+  color: #fff;
+  font-family: abeezee regular, serif;
+  padding-top: 2.5em;
+  padding-right: 12em;
+  float: right;
+}
