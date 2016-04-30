@@ -1,6 +1,11 @@
+@font-face {
+  font-family: verminvibes;
+  src:url('../fonts/vermin_vibes.ttf') format('truetype');
+}
+
 
 body {
-  background-image: url('../img/maxresdefault.png');
+  background-image: url('http://www.matdidthis.com/wp-content/uploads/2012/03/X3JZ4z9.jpg');
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
@@ -11,7 +16,13 @@ body {
 
 /*Cssmenu navbar*/
 
+#darynbrown {
+  float:left;
+}
+
 @import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+
 #cssmenu,
 #cssmenu ul,
 #cssmenu ul li,
@@ -46,10 +57,29 @@ body {
   line-height: 1;
 }
 #cssmenu > ul {
-  background: #3db2e1;
+  background: #222;
 }
+
+#cssmenu > ul > a {
+  padding: 16px 20px;
+  font-family: verminvibes, 'Orbitron';
+  text-decoration: none;
+  text-transform: uppercase;
+  outline-offset: 20px;
+  font-size: 1.5em;
+  color: #33ccff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #222;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
 #cssmenu > ul > li {
-  float: left;
+  float: right;
   -webkit-perspective: 1000px;
   -moz-perspective: 1000px;
   perspective: 1000px;
@@ -72,7 +102,7 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
-  background: #3db2e1;
+  background: #222;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -o-transition: all .3s;
@@ -204,21 +234,19 @@ body {
 }
 
 #head-text {
-  color: #3db2e1;
-  font-size: 5em;
+  text-align: center;
+  color: #666;
+  font-size: 1em;
   font-family:'Raleway',serif;
   text-transform: uppercase;
-  text-shadow:
-   -2px -2px 0 #666,
-   2px -2px 0 #666,
-   -2px 2px 0 #666,
-   2px 2px 0 #666;
 }
 
 #intro {
-  color: rgb(0, 7, 33);
+
+  color: #fff;
   text-align: center;
   font-family: 'Raleway' ,serif;
-  font-size: 20px;
+  font-size: 1em;
   text-transform: uppercase;
+  letter-spacing: .5em;
 }
