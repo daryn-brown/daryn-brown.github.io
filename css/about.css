@@ -13,7 +13,13 @@ background-attachment: fixed;
 
 /*Cssmenu navbar*/
 
+#darynbrown {
+  float:left;
+}
+
 @import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+
 #cssmenu,
 #cssmenu ul,
 #cssmenu ul li,
@@ -29,6 +35,7 @@ background-attachment: fixed;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  position: inherit;
 }
 #cssmenu:after,
 #cssmenu > ul:after {
@@ -48,10 +55,29 @@ background-attachment: fixed;
   line-height: 1;
 }
 #cssmenu > ul {
-  background: #3db2e1;
+  background: #222;
 }
+
+#cssmenu > ul > a {
+  padding: 16px 20px;
+  font-family: verminvibes, 'Orbitron';
+  text-decoration: none;
+  text-transform: uppercase;
+  outline-offset: 20px;
+  font-size: 1.5em;
+  color: #33ccff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #222;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
 #cssmenu > ul > li {
-  float: left;
+  float: right;
   -webkit-perspective: 1000px;
   -moz-perspective: 1000px;
   perspective: 1000px;
@@ -74,7 +100,7 @@ background-attachment: fixed;
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
-  background: #3db2e1;
+  background: #222;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -o-transition: all .3s;
