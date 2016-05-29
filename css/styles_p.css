@@ -252,6 +252,52 @@ body {
 }
 
 .preface {
- margin-top: 5em;
- text-align: center;
+  margin-top: 5em;
+  text-align: center;
+}
+
+#maincontainer {
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+#container {
+  width: auto;
+  height: auto;
+  background-color: rgba(31,31,31,0.58);
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20em;
+  margin-bottom: 10em;
+}
+#inner.left {
+  float: left;
+  padding: 1em;
+  background-color: transparent;
+}
+
+#inner {
+ overflow: hidden;
+   height: 100%;
+   padding: 40px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+   background-color: rgba(13,13,13,0.92);
+}
+
+p#title1-p {
+ font-family: monospace;
+ font-size: 1.5em;
+ color: #33ccff;
+ text-transform: uppercase;
+ margin-top: 0;
+}
+
+p#title2-p {
+ color: #33ccff;
+}
+
+p.description {
+ color: white;
 }
