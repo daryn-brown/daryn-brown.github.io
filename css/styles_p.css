@@ -1,5 +1,6 @@
 @font-face {
   font-family: verminvibes;
+  unicode-range: U+007F-FFFF; /* range other than Latin */
   src:url('../fonts/vermin_vibes.ttf') format('truetype');
 }
 
@@ -226,7 +227,7 @@ body {
 /*Home section*/
 
 #home {
-  margin-top: 220px;
+  margin-top: 170px;
   text-align: center;
   clear: both;
   height: auto;
@@ -249,4 +250,9 @@ body {
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: .5em;
+}
+
+.preface {
+ margin-top: 5em;
+ text-align: center;
 }
