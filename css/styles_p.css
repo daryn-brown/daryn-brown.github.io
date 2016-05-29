@@ -1,6 +1,5 @@
 @font-face {
   font-family: verminvibes;
-  unicode-range: U+007F-FFFF; /* range other than Latin */
   src:url('../fonts/vermin_vibes.ttf') format('truetype');
 }
 
