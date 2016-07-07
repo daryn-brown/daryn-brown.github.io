@@ -3,6 +3,10 @@
   src:url('../fonts/vermin_vibes.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: achille;
+  src:url('../fonts/Achille FY W01 Regular.ttf') format('truetype');
+}
 
 body {
   background-image: url('http://www.matdidthis.com/wp-content/uploads/2012/03/X3JZ4z9.jpg');
@@ -288,7 +292,7 @@ body {
 
 p#title1-p {
  font-family: monospace;
- font-size: 1.5em;
+ font-size: 2em;
  color: #33ccff;
  text-transform: uppercase;
  margin-top: 0;
@@ -300,4 +304,5 @@ p#title2-p {
 
 p.description {
  color: white;
+ font-family: achille;
 }
